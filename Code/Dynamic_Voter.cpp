@@ -458,7 +458,7 @@ double Dynamic_Voter::simulate(float alpha, int dt, string process, string comp,
                 edge_it2=inactive_edge_boundary[e2];
                 swap_delete(edge_it2, inactive_edge_boundary);
                 edge_it2->active=1;
-                edge_it2->boundary_place=active_edge_boundary.insert(active_edge_boundary.end(),edge_it);}
+                edge_it2->boundary_place=active_edge_boundary.insert(active_edge_boundary.end(),edge_it2);}
             edge_it->boundary_place=inactive_edge_boundary.insert(inactive_edge_boundary.end(),edge_it);}
 		else {
             action=0;
