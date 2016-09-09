@@ -20,7 +20,7 @@ public:
 	long int ID;
 	int state;
 	vector<Node>::iterator myself;
-	list<vector<Edge>::iterator> edge_list; //iterators to the edges that join to/from this node
+	list<vector<Edge>::iterator> edge_list; //iterators to the edges that attach to this node
 	vector<vector<Node>::iterator>::iterator sites_place; // iterator to where it is in the list of i nodes
 
 public:
