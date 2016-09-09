@@ -37,7 +37,7 @@ int main(int argc, char* argv[]){ // -n number_of_nodes -m number_of_edges -d de
 	initial_density.push_back(1.0/2);
 	initial_density.push_back(1.0/2);
 	alpha=0.3;
-	lambda=0.3;
+	lambda=0.5;
 	p=0.5;
 	if(argc>1){
 		for (i = 1; i < argc; i++){
